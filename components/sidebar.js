@@ -1,5 +1,5 @@
-import Link from 'next/link'
-import styles from './sidebar.module.css'
+import Link from "next/link";
+import styles from "./sidebar.module.css";
 
 export default function Sidebar() {
   return (
@@ -15,5 +15,5 @@ export default function Sidebar() {
         <a>Contact</a>
       </Link>
     </nav>
-  )
+  );
 }
